@@ -36,6 +36,6 @@ for (var contractName in output.contracts['UserContract.sol']) {
         ': ' +
         output.contracts['UserContract.sol'][contractName].abi
     ));
+    module.exports =  output.contracts['UserContract.sol'][contractName]
   }
 
-  module.exports = output
